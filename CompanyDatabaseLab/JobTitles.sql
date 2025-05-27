@@ -1,0 +1,4 @@
+﻿CREATE TABLE JobTitles(
+	JobTitleID INT PRIMARY KEY,
+	JobTitleName VARCHAR(100) NOT NULL
+	);

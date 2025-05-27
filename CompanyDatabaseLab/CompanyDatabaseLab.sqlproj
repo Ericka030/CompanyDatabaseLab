@@ -63,8 +63,13 @@
     <Build Include="Employees.sql" />
     <Build Include="Transactions.sql" />
     <Build Include="Stored Procedures\GetAboveAverageSalaries.sql" />
+    <Build Include="AddNewEmployee.sql" />
+    <Build Include="JobTitles.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Script.PreDeployment1.sql" />
   </ItemGroup>
 </Project>
